@@ -11,7 +11,7 @@ There are some good articles worth studying on IDCS:
 
 ## API Staging Table
 We use a table for trapping and storing most of the data involved with an API – successes and failures. It provides a detailed log of activities and can be helpful when troubleshooting. 
-1.	For this package to compile you will need to create the table API_STAGING 
+1.	For this package to compile you will need to create the table [API_STAGING](https://github.com/cmoore-sp/Oracle_Identity_Cloud_services/blob/main/create_table_api_staging.sql) 
 2.	For your results, look in the JSON response
 We use api_staging.json_response as the foundation for the SQL statement that extract the JSON data we want for classic Oracle tables. 
 ## Closing
